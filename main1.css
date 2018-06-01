@@ -1,0 +1,99 @@
+* { padding: 0; margin: 0;
+
+ }
+body {
+font-family : "Lucida Sans Unicode", sans-serif;
+font-size : .8em;
+}
+
+#wrapper {
+margin: 0 auto;
+width: 1020px;
+font-size: 12px;
+background-color: #FFFFFF;
+}
+#header {
+color: #333;
+width: 900px;
+height: 200px;
+margin: 0px 0px 0px 0px;
+background-image: url('images/taram1.jpg');
+background-position: right;
+background-repeat: no-repeat;
+padding-left: 120px;
+
+}
+.navigation {
+border : 1px solid #000000;
+border-color : #000000;
+background : #000000 url('images/nav.gif');
+height : 41px;
+margin : 0;
+}
+.navigation a {
+background : #000000 url('images/nav.gif');
+border-right : 1px solid #000000;
+color : #ffffff;
+display : block;
+float : left;
+text-decoration : none;
+font : bold 1em sans-serif;
+line-height : 41px;
+padding : 0 20px;
+padding-top : 0;
+font-size: 11px;
+}
+.navigation a:hover {
+background-position : left bottom;
+color : #dad8cc;
+}
+#content{
+}
+#leftcolumn {
+color: #333;
+margin: 0px 0px 0px 0px;
+padding: 30px 20px 0px 20px;
+width: 400px;
+float: left;
+}
+#rightcolumn {
+float: right;
+color: #333;
+margin: 0px 0px 0px 0px;
+padding: 30px 20px 0px 20px;
+width: 528px;
+}
+#con{
+padding:20px;
+font-size: 13px;
+}
+#customer{
+padding:50px 100px 50px 200px;
+}
+#footer {
+clear: both;
+color: #ffffff;
+margin: 0px 0px 0px 0px;
+padding: 10px;
+border : 1px solid #000000;
+border-color : #000000;
+background : #000000 url('images/nav.gif');
+font-size: smaller;
+background-repeat: repeat-x;
+}
+#slide{
+clear: both;
+}
+#address{
+float:left;
+width:400px;
+padding:40px 10px 10px 100px;
+}
+#form{
+
+float:right;
+width:500px;
+padding:40px 10px 10px 0px;
+}
+
+
