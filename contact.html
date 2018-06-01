@@ -45,44 +45,47 @@
 </ul>
 </div>
 <div id="form">
-<p style="font-size: medium">Send your Message :</p>
-<div class="contact1">
-				
-	<fieldset style="float:left;">
-	<p id="form_errors"></p>
-	<p id="form_thanks"></p>
-	<form id="con" name="contact" action="" method="post">
+	<p style="font-size: medium">Send your Message :</p>
+	<div class="contact1">
+					
+		<fieldset style="float:left;">
+		<p id="form_errors"></p>
+		<p id="form_thanks"></p>
+		<form id="con" name="contact" action="" method="post">
 
-	<label>Your Name <span class="req">*</span></label>
-	<input type="text" class="txt_input" name="sender_name" />
-	<input type="hidden" name="_next" value="/contact.html" />
-	<input type="hidden" name="_subject" value="E-Mail from your contact form" />
-	<label>Your E-Mail <span class="req">*</span></label>
-	<input type="email" name="_replyto" class="txt_input" name="sender_email" />
-	<input type="text" name="_gotcha" style="display:none" />
-	<label>Telephone <span class="req">*</span></label>
-	<input type="text" class="txt_input" name="sender_phone" />
+		<label>Your Name <span class="req">*</span></label>
+		<input type="text" class="txt_input" name="sender_name" />
+		<input type="hidden" name="_next" value="/contact.html" />
+		<input type="hidden" name="_subject" value="E-Mail from your contact form" />
+		<label>Your E-Mail <span class="req">*</span></label>
+		<input type="email" name="_replyto" class="txt_input" name="sender_email" />
+		<input type="text" name="_gotcha" style="display:none" />
+		<label>Telephone <span class="req">*</span></label>
+		<input type="text" class="txt_input" name="sender_phone" />
 
-	<label>Message <span class="req">*</span></label>
-	<textarea name="sender_message"></textarea><br />
-	<table>
-	<tr>
-<td>
-<input type="submit" name="submitForm" value="Send" />
-</td>
-<td>
- <input type="reset" value="Clear">
-</td>
-</tr>
-</table>
-	</form>
-	</fieldset>
-</div>
-<script>
-    var contactform =  document.getElementById('con');
-    contactform.setAttribute('action', '//formspree.io/' + 'sudharsan.sivasankaran' + '@' + 'gmail' + '.' + 'com');
-</script>
-<p><!-- End Right Column --><!-- Begin Footer --></p>
+		<label>Message <span class="req">*</span></label>
+		<textarea name="sender_message"></textarea><br />
+		<table>
+		<tr>
+	<td>
+	<input type="submit" name="submitForm" value="Send" />
+	</td>
+	<td>
+	<input type="reset" value="Clear">
+	</td>
+	</tr>
+	</table>
+		</form>
+		</fieldset>
+	</div>
+	<script>
+		var contactform =  document.getElementById('con');
+		contactform.setAttribute('action', '//formspree.io/' + 'sudharsan.sivasankaran' + '@' + 'gmail' + '.' + 'com');
+	</script>
+<p>
+</p></div>
+
+	<!-- End Right Column --><!-- Begin Footer --></p>
 <div id="footer">&copy;Taram Engineering-Taram.in &nbsp;|&nbsp; Powered by WEBEM&nbsp; |&nbsp; Best view with resolution 1024*768.</div>
  </div>
 </body>
